@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>campominato-dom</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col header">
+                    <div>
+                        <img class="logo" src="./boolean-logo.png" alt="logo">
+                        <h1>Campo Minato</h1>
+                    </div>
+                </div>
+                <div class="col header">
+                    <div>
+                        <select id="select">
+                            <option>Seleziona difficoltà</option>
+                            <option value="10">Facile</option>
+                            <option value="9">Intermedio</option>
+                            <option value="7">Difficile</option>
+                        </select>
+                        <button class="play">Play</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2 id="info">Seleziona il livello di difficoltà e poi clicca il puslante Play</h2>
+        <div id="field" class="grid">
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
