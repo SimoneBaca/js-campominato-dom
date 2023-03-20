@@ -72,3 +72,8 @@ h2{
     background-color: rgb(9,9,53);
     color:  rgb(46,243,207);
 }
+.red{
+    border: 1px solid red;
+    background-color: red;
+    color: black;
+}
